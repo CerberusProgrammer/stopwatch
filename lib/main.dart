@@ -5,7 +5,7 @@ import 'home.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    theme: ThemeData.dark(useMaterial3: true),
+    theme: ThemeData.light(useMaterial3: true),
     title: 'Stop Watch',
     home: const Home(),
   ));
