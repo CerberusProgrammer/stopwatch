@@ -11,11 +11,16 @@ class _Home extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-          child: ElevatedButton(
-        onPressed: () {},
-        child: const Text('Press'),
-      )),
-    );
+        body: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Center(
+              child: Column(
+            children: [],
+          )),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: const Icon(Icons.play_arrow),
+        ));
   }
 }
